@@ -1,7 +1,7 @@
 # Create an IPv4/IPv6 Address Application
 
-**Authors:** Blancaflor, Mark Dave
-             Lamzon, John David
+**Authors:** Blancaflor, Mark Dave<br>
+             Lamzon, John David<br>
              Taway, Joshua
 
 ## Scenario
