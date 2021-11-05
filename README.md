@@ -1,8 +1,9 @@
 # Create an IPv4/IPv6 Address Application
 
-**Authors:** Blancaflor, Mark Dave<br>
-             Lamzon, John David<br>
-             Taway, Joshua
+**Authors:** 
+* Blancaflor, Mark Dave<br>
+* Lamzon, John David<br>
+* Taway, Joshua
 
 ## Scenario
 Your manager has received a request from the engineering department for a prototype of a new application that will provide IP addressing information to network technicians.
