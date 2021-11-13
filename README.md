@@ -1,4 +1,4 @@
-# Create an IPv4/IPv6 Address Application
+# Automated Software Testing and Deployment
 
 **Authors:** 
 * Blancaflor, Mark Dave<br>
@@ -6,15 +6,13 @@
 * Taway, Joshua
 
 ## Scenario
-Your manager has received a request from the engineering department for a prototype of a new application that will provide IP addressing information to network technicians.
+The marketing department has received very favorable reviews and feedback about your application. Your manager has acquired funding and resources for your team to add some of the backlog features to your application.
 
-Search the internet for REST APIs that retrieve a user's current public IPv4 address and IPv6 address, such as ipapi.co or ipsstack.com. Using the public APIs, create a Python application that displays and formats the computer’s current public IP addressing information.
+As your team continues working on the code, each team member contributes to your shared application codebase on GitHub with their changes. Despite the fact that you are trying to do doing manual code reviews for each commit, or pull request, sometimes a team member’s change will break some functionality in the application. Many times, such issues are identified only when the application is deployed and running. This usually leads to long troubleshooting sessions and slows down the development.
 
-Depending on the API you select, you may also obtain geolocation information, the provider (ISP), the ASN (Autonomous System Number) of the ISP, and country code.
+To eliminate the issues from above and ease development, your team has been asked to use some of the best practices from the DevOps methodology. Design a testing process that would be triggered automatically by GitHub whenever there is a new commit to the codebase. Only if all the test cases are passed, can the committed change be merged, or further used. Your manager has recommended that, in addition to Jenkins, explore other CI/CD tools like GitHub Actions, CircleCI, etc., that might help you to build this automated CI/CD pipeline.
 
-Your manager would also like a list of other enhancements for a future revision. These are called backlog items. This backlog will be used for Project Activity 4.
 
-<b>Note:</b> The objectives and specific tasks of your project will depend on the options provided by the IP information API you choose.
 
 ## API used
 * <a href="https://api.ipify.org">IPIFY</a>
